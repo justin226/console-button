@@ -1,5 +1,5 @@
-var consolediv = document.createElement("console");
-consolediv.id = "div";
+var consolediv = document.createElement("div");
+consolediv.id = "console";
 consolediv.innerHTML = "<div id=\"consoleheader\"><button id=\"closeconsole\">X</button></div><div id=\"consolehistory\"</div>&gt;<textarea rows=\"1\" id=\"cmd\">"
 var consolecss = document.createElement("style");
 consolecss.innerHTML = "#console{position:absolute;z-index:9;background-color:#f1f1f1;border:1px solid #d3d3d3;text-align:center}#consoleheader{padding:10px;cursor:move;z-index:10;background-color:#2196f3;color:#fff;text-align:right;}";
